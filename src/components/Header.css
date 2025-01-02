@@ -1,0 +1,35 @@
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+}
+
+.navItem {
+    position: relative;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+    background-color: #0056b3; /* Darker shade of blue */
+}
